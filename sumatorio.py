@@ -1,6 +1,7 @@
-número = int(input("Dime un número entero: "))
-sumatorio = 0
-for i in range(1,número+1):
-    sumatorio = sumatorio + i
-
-print(f"El sumatorio del 1 al {número} : {sumatorio}")
+x = int(input("Introduce un número entero: "))
+i = 1
+y = 0
+while i <= x:
+    y += i
+    i += 1
+print("El sumatorio de todos los numeros hasta el "+str(x)+" es "+str(y)+".")

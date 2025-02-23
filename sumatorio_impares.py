@@ -1,6 +1,8 @@
-número = int(input("Dime un número entero: "))
-sumatorio = 0
-for i in range(1,número+1,2):
-    sumatorio = sumatorio + i
-
-print(f"El sumatorio de impares del 1 al {número} : {sumatorio}")
+x = int(input("Introduce un número entero: "))
+i = 1
+y = 0
+while i <= x:
+    if i%2 == 1:
+        y += i
+    i += 1
+print("El sumatorio de todos los numeros impares hasta el "+str(x)+" es "+str(y)+".")
